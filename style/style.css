@@ -11,6 +11,7 @@ body{
     
     font-size: 25px;
     font-family:'Times New Roman', Times, serif;
+    background-color: white;
 
 }
 
@@ -111,6 +112,7 @@ section .main-buttons{
     display: inline-block;
     margin-left: 300px;
     margin-top: 80px;
+   
 
 }
 
@@ -141,16 +143,18 @@ section .main-buttons{
 
 
 div.galerias{
- margin: 600px 20px;
+ margin-top: -570px;
  box-shadow: 0 4px 8px 0 #FFBFA9 0 6px 20px 0 black (0,0,0,0.19);
- float: left ;
+ float:left ;
  width: 350px;
+ margin-left: 40px;
 }
 
 
 div.galerias img{
 width: 100%;
 height: auto;
+
 
 
 
@@ -195,5 +199,24 @@ margin-left: 10%;
 
 .caja{
 
-    margin-bottom:500% ;
+    margin-bottom:30px ;
+}
+
+
+footer {
+
+  background-color: #FFBFA9;
+  color: white;
+  
+  padding: 20px 100px 70px 100px;
+  margin-top: 1600px;
+ 
+  
+}
+
+.footer-left{
+ 
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
 }
